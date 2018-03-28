@@ -15,10 +15,7 @@ client.on('warn', console.warn);
 
 client.on('error', console.error);
 
-client.on('ready', () => {
-  client.user.setStatus('online')
-  client.user.setActivity(`Music for you ^^`,{type: "PLAYING"});
-});
+client.on('ready', () => console.log('Ready to be used.');
 
 client.on('disconnect', () => console.log('I just disconnected, making sure you know, I will reconnect now...'));
 
