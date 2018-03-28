@@ -1,0 +1,16 @@
+{
+  "name": "J4Music",
+  "description": "Music bot for the Just4Fun server",
+  "version": "0.0.0",
+  "main": "MusicBot.js",
+  "scripts": {
+    "start": "node MusicBot.js"
+  },
+  "dependencies": {
+    "discord.js": "5.6.0",
+    "simple-youtube-api": "5.6.0",
+    "ytdl-core": "5.6.0",
+    "ffmpeg-binaries": "5.6.0"
+    
+  }
+}
